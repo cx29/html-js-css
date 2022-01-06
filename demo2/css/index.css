@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.f-box {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/moutain.jpg) no-repeat;
+  background-size: cover;
+}
+.f-box .son-box {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(20px);
+}
