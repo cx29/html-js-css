@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>iPhone</title>
+		<link rel="stylesheet" type="text/css" href="./index.css"/>
+	</head>
+	<body>
+		<canvas id="cv" width="400px" height="400px"></canvas>
+	</body>
+	<script type="text/javascript">
+		let canvas=document.getElementById("cv");
+		let ctx=canvas.getContext("2d");
+		ctx.fillStyle="red";
+		ctx.strokeStyle="red";
+		// ctx.fillRect(5,5,5,5);
+		// ctx.arc(10,25,40,0,Math.PI/2);
+		ctx.beginPath();
+		ctx.moveTo(0,150);
+		ctx.arcTo(100,150,100,50,60);
+		ctx.lineTo(100,50);
+		ctx.arcTo(200,150,250,150,150);
+		ctx.lineTo(250,150);
+		ctx.stroke();
+		ctx.fill();
+		// ctx.fill();
+		ctx.closePath();
+	</script>
+</html>
