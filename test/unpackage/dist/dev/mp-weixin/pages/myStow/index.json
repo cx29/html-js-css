@@ -1,0 +1,7 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "赞过",
+  "usingComponents": {
+    "info-list": "/components/list2/index"
+  }
+}

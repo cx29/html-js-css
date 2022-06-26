@@ -1,0 +1,1 @@
+<view><view class="F-Box"><view class="pic"><image src="http://121.40.19.45:8080/pics/fish.png" mode="scaleToFill"></image></view><view class="bottomBox"><text class="t1">快把小游推荐给朋友们吧</text><text class="t2">点击下方链接进行推荐</text><button open-type="share">推荐给好友</button></view></view></view>

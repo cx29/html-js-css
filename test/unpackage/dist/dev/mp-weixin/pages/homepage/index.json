@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "onReachBottomDistance": 1000,
+  "usingComponents": {
+    "goods-list": "/components/list/list"
+  }
+}

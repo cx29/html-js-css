@@ -1,0 +1,133 @@
+{
+	"pages": [ 
+	//首页
+		{
+			"path": "pages/homepage/index",
+			"style": {
+				"navigationStyle": "custom",
+				"onReachBottomDistance":1000
+			}
+		},
+		//详情页
+		{
+			"path": "pages/detailPage/index",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": ""
+			}
+		},
+		//详情列表
+		{
+			"path": "pages/lists/index",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "",
+				"onReachBottomDistance":20
+				
+			}
+		},
+		//最近浏览
+		{
+			"path": "pages/lastView/index",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "最近浏览",
+				"onReachBottomDistance":20
+			}
+		},
+		//赞过
+		{
+			"path": "pages/myStow/index",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "赞过"
+			}
+		},
+		// 我的收藏
+		{
+			"path": "pages/collection/index",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的收藏",
+				"onReachBottomDistance":20
+			}
+		},
+		//个人主页,tabBar栏
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		//资料详情页
+		{
+			"path": "pages/myInfo/index",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的资料"
+			}
+		},
+		//分享页
+		{
+			"path": "pages/groom/index",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "武汉\" 游\" 点料"
+			}
+		},
+		//消息页,暂不实现具体功能
+		{
+			"path": "pages/news/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		//反馈页
+		{
+			"path": "pages/tickle/index",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "武汉\" 游\" 点料"
+			}
+		},
+		//隐私选项卡页
+		{
+			"path": "pages/hide/index",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "隐私"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh": true
+	},
+	"tabBar": {
+		"color": "#262628",
+		"selectedColor": "#000000",
+		"backgroundColor": "#f0f0fa",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/homepage/index",
+				"text": "首页",
+				"iconPath": "static/icon/shouye_1.png",
+				"selectedIconPath": "static/icon/shouye_01.png"
+			},
+			{
+				"pagePath": "pages/news/index",
+				"text": "消息",
+				"iconPath": "static/icon/icon-test.png",
+				"selectedIconPath": "static/icon/icon-test1.png"
+			}, {
+				"pagePath": "pages/my/index",
+				"text": "我的",
+				"iconPath": "static/icon/wode.png",
+				"selectedIconPath": "static/icon/wode1.png"
+			}
+		]
+	}
+}

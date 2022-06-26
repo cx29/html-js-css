@@ -1,0 +1,72 @@
+.boxBig {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boxBig scroll-view {
+  width: 100%;
+}
+.boxBig scroll-view swiper {
+  width: 98%;
+  height: 425px;
+}
+.boxBig scroll-view swiper image {
+  width: 100%;
+  height: 100%;
+}
+.boxBig scroll-view .textBox {
+  width: 98%;
+  height: auto;
+  margin-top: 10px;
+}
+.boxBig scroll-view .textBox text {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  font-weight: 800;
+}
+.boxBig scroll-view .textBox .text {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.boxBig .bottomBox {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  background-color: #fff;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.boxBig .bottomBox .leftBox,
+.boxBig .bottomBox .rightBox {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #aaaaaa;
+}
+.boxBig .bottomBox .inputBox {
+  width: 50%;
+  height: 50%;
+  border: 1px solid #e4e4e4;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 5px;
+  margin-left: 10%;
+}
+.boxBig .bottomBox .inputBox input {
+  width: 80%;
+  color: #625b5a;
+  font-size: 24rpx;
+}
+.boxBig .bottomBox .rightBox {
+  justify-content: space-between;
+  height: 40%;
+  margin-right: 10%;
+}
+

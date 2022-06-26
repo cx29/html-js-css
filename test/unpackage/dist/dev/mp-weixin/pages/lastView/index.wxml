@@ -1,0 +1,1 @@
+<view class="pages"><goodslist vue-id="7244f60f-1" inside="{{list}}" bind:__l="__l"></goodslist><view class="tips">暂时没有更多浏览哦,快和小游一起去看看吧!</view></view>

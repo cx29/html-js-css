@@ -1,0 +1,1 @@
+<view><view class="topBox"><view class="inputBox"><input type="text" placeholder="{{tips[id]}}" placeholder-style="p-text"/><view class="iconBox"><uni-icons class="iconfont iconsearch" vue-id="a8964612-1" type bind:__l="__l"></uni-icons></view></view><goodslist vue-id="a8964612-2" inside="{{datas}}" bind:__l="__l"></goodslist></view></view>

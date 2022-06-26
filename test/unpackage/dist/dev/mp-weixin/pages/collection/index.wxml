@@ -1,0 +1,1 @@
+<view><view class="newBox"><view class="p-text">创建收藏分类</view><view class="imgBox"><image src="http://121.40.19.45:8080/pics/picDemo.png" mode="scaleToFill" data-event-opts="{{[['tap',[['addimage',['$event']]]]]}}" bindtap="__e"></image></view></view><collect-list vue-id="20b3122c-1" inside="{{inside}}" bind:__l="__l"></collect-list></view>

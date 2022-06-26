@@ -1,0 +1,24 @@
+.pages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pages goodslist .infos {
+  border: 1px solid #cfcfcf;
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+  margin-top: 10rpx;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+.pages .tips {
+  width: 80%;
+  height: 30rpx;
+  border-top: 2px solid #dadada;
+  margin-top: 10rpx;
+  padding-top: 10rpx;
+  font-size: 24rpx;
+  text-align: center;
+  color: #a6a6a6;
+}
+

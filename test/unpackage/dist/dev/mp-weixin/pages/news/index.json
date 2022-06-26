@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "news-list": "/components/newsList/newsList"
+  }
+}

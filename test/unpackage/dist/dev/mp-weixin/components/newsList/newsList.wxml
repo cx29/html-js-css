@@ -1,0 +1,1 @@
+<view class="ul"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><navigator class="li" url><image src="{{item.image_src}}" mode="scaleToFill"></image><view class="textBox"><text class="title">{{item.name}}</text><text class="info">{{item.news}}</text></view><view class="time">{{''+item.time+''}}</view></navigator></block></view>

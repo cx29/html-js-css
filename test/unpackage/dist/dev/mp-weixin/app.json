@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/homepage/index",
+    "pages/detailPage/index",
+    "pages/lists/index",
+    "pages/lastView/index",
+    "pages/myStow/index",
+    "pages/collection/index",
+    "pages/my/index",
+    "pages/myInfo/index",
+    "pages/groom/index",
+    "pages/news/index",
+    "pages/tickle/index",
+    "pages/hide/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#262628",
+    "selectedColor": "#000000",
+    "backgroundColor": "#f0f0fa",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/homepage/index",
+        "text": "首页",
+        "iconPath": "static/icon/shouye_1.png",
+        "selectedIconPath": "static/icon/shouye_01.png"
+      },
+      {
+        "pagePath": "pages/news/index",
+        "text": "消息",
+        "iconPath": "static/icon/icon-test.png",
+        "selectedIconPath": "static/icon/icon-test1.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "static/icon/wode.png",
+        "selectedIconPath": "static/icon/wode1.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

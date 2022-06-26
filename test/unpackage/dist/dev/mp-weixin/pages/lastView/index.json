@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "最近浏览",
+  "onReachBottomDistance": 20,
+  "usingComponents": {
+    "goodslist": "/components/list/list"
+  }
+}

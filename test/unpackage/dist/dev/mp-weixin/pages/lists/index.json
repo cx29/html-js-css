@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "",
+  "onReachBottomDistance": 20,
+  "usingComponents": {
+    "goodslist": "/components/list/list"
+  }
+}
